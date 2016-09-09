@@ -1,0 +1,337 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NAVI DIALOGEX 0, 0, 33, 415
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 7, "MS Sans Serif", 400, 0, 0xCC
+BEGIN
+    PUSHBUTTON      "L/M",IDC_LIGHT,6,125,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "3D",IDC_3D,6,60,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "2D",IDC_2D,6,164,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Gens",IDC_TEXGEN,6,148,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Filters",IDC_FILTERS,6,196,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "text",IDC_TEXT,6,180,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "xyz",IDC_XYZ,6,77,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "-><-",IDC_TC,6,36,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Alpha",IDC_ALPHA,6,228,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Sel",IDC_SELECTION,6,109,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Anim",IDC_ANIMA,6,267,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "rgb",IDC_RGB,6,212,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "cmd",IDC_CMD,6,20,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Scn",IDC_SCN,6,3,24,14,NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,55,39,2
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,142,39,2
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,246,39,2
+    PUSHBUTTON      "Gens",IDC_SND,5,301,24,14,NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,1,403,39,2
+    PUSHBUTTON      ">",IDC_PLAY2,2,371,14,14,NOT WS_TABSTOP
+    PUSHBUTTON      "||",IDC_PAUSE2,18,371,15,14,NOT WS_TABSTOP
+    PUSHBUTTON      "[]",IDC_STOP2,2,386,31,14,NOT WS_TABSTOP
+    PUSHBUTTON      "uv",IDC_UV,6,93,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Cam",IDC_CAM,6,251,24,14,NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,285,39,2
+    CTEXT           "sound",IDC_STATIC,2,287,31,13,WS_DISABLED
+    PUSHBUTTON      "Dyna",IDC_DYNA,5,317,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "filters",IDC_SFILTERS,5,333,24,14,NOT WS_TABSTOP
+    PUSHBUTTON      "tracker",IDC_TRACK,5,349,24,14,NOT WS_TABSTOP
+END
+
+IDD_RENAME DIALOG  0, 0, 151, 28
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename "
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,7,30,12
+    EDITTEXT        IDC_RENAMEITEM,7,7,99,12,ES_AUTOHSCROLL
+END
+
+IDD_NAVI1 DIALOGEX 0, 0, 142, 396
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Parameters Edit"
+FONT 7, "MS Sans Serif", 400, 0, 0xCC
+BEGIN
+    RTEXT           "p0",IDC_NAME_P0,4,18,50,11
+    RTEXT           "p1",IDC_NAME_P1,4,31,50,11
+    RTEXT           "p2",IDC_NAME_P2,4,42,50,11
+    EDITTEXT        IDC_EDIT_P0,104,17,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_P1,104,30,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_P2,104,42,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p3",IDC_NAME_P3,4,55,50,11
+    EDITTEXT        IDC_EDIT_P3,104,55,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p4",IDC_NAME_P4,4,69,50,11
+    EDITTEXT        IDC_EDIT_P4,104,68,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p5",IDC_NAME_P5,4,82,50,11
+    EDITTEXT        IDC_EDIT_P5,104,81,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p6",IDC_NAME_P6,4,95,50,11
+    EDITTEXT        IDC_EDIT_P6,104,94,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_P7,104,108,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P7,4,109,50,11
+    PUSHBUTTON      "...",IDC_EN0,60,15,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN1,60,28,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN2,60,42,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN3,60,55,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN4,60,68,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN5,60,81,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN6,60,94,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_EN7,60,107,39,13,NOT WS_TABSTOP
+    PUSHBUTTON      "reName",IDC_RENAME,7,2,29,14,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P8,104,121,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p8",IDC_NAME_P8,4,122,50,11
+    PUSHBUTTON      "...",IDC_EN8,60,120,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P9,104,134,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p9",IDC_NAME_P9,4,135,50,11
+    PUSHBUTTON      "...",IDC_EN9,60,133,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P10,104,147,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P10,4,148,50,11
+    PUSHBUTTON      "...",IDC_EN10,60,146,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P11,104,161,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p10",IDC_NAME_P11,4,162,50,11
+    PUSHBUTTON      "...",IDC_EN11,60,159,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P12,104,175,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P12,4,175,50,11
+    PUSHBUTTON      "...",IDC_EN12,60,172,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P13,104,188,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P13,4,188,50,11
+    PUSHBUTTON      "...",IDC_EN13,60,186,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P14,104,203,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P14,4,203,50,11
+    PUSHBUTTON      "...",IDC_EN14,60,200,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P15,104,217,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P15,4,217,50,11
+    PUSHBUTTON      "...",IDC_EN15,60,214,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P16,103,231,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P16,3,231,50,11
+    PUSHBUTTON      "...",IDC_EN16,59,228,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P17,104,244,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P17,4,244,50,11
+    PUSHBUTTON      "...",IDC_EN17,60,242,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P18,103,259,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P18,3,259,50,11
+    PUSHBUTTON      "...",IDC_EN18,59,256,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P19,103,273,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P19,3,273,50,11
+    PUSHBUTTON      "...",IDC_EN19,59,270,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P20,103,287,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P20,3,287,50,11
+    PUSHBUTTON      "...",IDC_EN20,59,284,39,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT_P21,103,301,31,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "p7",IDC_NAME_P21,3,301,50,11
+    PUSHBUTTON      "...",IDC_EN21,59,299,39,13,NOT WS_TABSTOP
+END
+
+IDD_STARTMENU DIALOGEX 0, 0, 235, 69
+STYLE DS_ABSALIGN | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "instructions for constructions"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Windowed",ID1024W,7,39,221,29,BS_CENTER
+    PUSHBUTTON      "Fullscreen [1280x720]",IDFS,7,7,221,28,BS_CENTER | BS_VCENTER | BS_MULTILINE
+END
+
+IDD_SHADEREDIT DIALOGEX 0, 0, 316, 363
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Shaders"
+FONT 10, "Courier New", 400, 0, 0xCC
+BEGIN
+    DEFPUSHBUTTON   "Save&Exit",IDOK,259,319,50,24
+    PUSHBUTTON      "Cancel",IDCANCEL,259,344,50,11
+    EDITTEXT        IDC_SE,7,4,302,312,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_NOHIDESEL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "",IDC_ERR,52,319,206,36,BS_LEFT | BS_TOP | BS_MULTILINE | BS_FLAT
+    PUSHBUTTON      "Load from lib",IDC_SHLOAD,7,319,44,18,BS_MULTILINE
+    PUSHBUTTON      "Save to lib",IDC_SHSAVE,7,338,44,17,BS_MULTILINE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_NAVI, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 32
+        BOTTOMMARGIN, 413
+    END
+
+    IDD_RENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 144
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_NAVI1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 135
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 389
+    END
+
+    IDD_STARTMENU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+    END
+
+    IDD_SHADEREDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU 
+BEGIN
+    POPUP "Project"
+    BEGIN
+        MENUITEM "New project",                 ID_PROJECT_NEWPROJECT
+        MENUITEM "Load",                        ID_PROJECT_LOAD
+        MENUITEM "Save",                        ID_PROJECT_SAVE
+        MENUITEM "Save as...",                  ID_PROJECT_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "Insert",                      ID_PROJECT_INSERT
+        MENUITEM "Save selected",               ID_PROJECT_SAVESELECTED
+        MENUITEM SEPARATOR
+        MENUITEM "Render video",                ID_PROJECT_SAVEAVI
+        MENUITEM "Save sample",                 ID_PROJECT_SAVESAMPLE
+        MENUITEM "Save all samples",            ID_PROJECT_SAVEALLSAMPLES
+        MENUITEM SEPARATOR
+        MENUITEM "Optimize",                    ID_PROJECT_OPTIMIZE
+        MENUITEM SEPARATOR
+        MENUITEM "Redo precalc",                ID_PROJECT_RECALC
+        MENUITEM "Make uselist",                ID_PROJECT_ULIST
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Textures",                    ID_VIEW_TEXTURES, CHECKED
+        MENUITEM "Vertex Buffers",              ID_VIEW_VERTEXBUFFERS, CHECKED
+        MENUITEM "Curves",                      ID_VIEW_CURVES, CHECKED
+        MENUITEM "Materials",                   ID_VIEW_MATERIALS, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "Only Current links",          ID_VIEW_ONLYCURRENTLINKS
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RAW
+//
+
+IDR_RAW1                RAW                     "visual.p4p"
+IDR_RAW2                RAW                     "sound.p4p"
+IDR_RAW3                RAW                     "music.xm"
+IDR_RAW4                RAW                     "basefont32.wbm"
+IDR_RAW5                RAW                     "text.txt"
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

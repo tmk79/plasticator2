@@ -1,0 +1,8 @@
+Release/*
+!Release/empty.p4p
+!Release/basefont32.wbm
+!Release/xaudio2.lib
+Debug/*
+!Debug/empty.p4p
+!Debug/basefont32.wbm
+!Debug/xaudio2.lib

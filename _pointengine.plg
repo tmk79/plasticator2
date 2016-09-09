@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: _pointengine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\f0x\AppData\Local\Temp\RSP5F7F.tmp" with contents
+[
+/nologo /G5 /MD /w /W0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/p21.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\!\!p4\_pointengine.cpp"
+]
+Creating command line "cl.exe @C:\Users\f0x\AppData\Local\Temp\RSP5F7F.tmp" 
+Creating temporary file "C:\Users\f0x\AppData\Local\Temp\RSP5F80.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib msvcrt.lib d3d9.lib d3dx9.lib winmm.lib comctl32.lib winmm.lib sound/minifmod.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/p21.pdb" /machine:I386 /out:"Release/point.exe" /opt:nowin98 
+".\Release\_pointengine.obj"
+".\Release\StdAfx.obj"
+".\Release\_pointengine.res"
+]
+Creating command line "link.exe @C:\Users\f0x\AppData\Local\Temp\RSP5F80.tmp"
+<h3>Output Window</h3>
+Compiling...
+_pointengine.cpp
+Linking...
+d3dx9.lib(cvsprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cfxlprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cshaderprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cparse.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(c30program.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cpslegacyprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cpsprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(ccompiler.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cfile.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cbaseprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cprogram.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(d3dx9shader.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cpreprocessor.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(ctokenize.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cassembler.obj) : error LNK2001: unresolved external symbol ___security_cookie
+d3dx9.lib(cvsprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cfxlprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cshaderprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cparse.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(c30program.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cpslegacyprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cpsprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(ccompiler.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cfile.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cbaseprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cprogram.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(d3dx9shader.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cpreprocessor.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(ctokenize.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+d3dx9.lib(cassembler.obj) : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Release/point.exe : fatal error LNK1120: 2 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+point.exe - 31 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
